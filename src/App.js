@@ -6,12 +6,12 @@ import InsertionSort from './algorithms/IS';
 import SelectionSort from './algorithms/Selection';
 
 // Icons
-import Play from '@material-ui/icons/PlayCircleOutlineRounded';
-import Forward from '@material-ui/icons/SkipNextRounded';
-import Backward from '@material-ui/icons/SkipPreviousRounded';
-import RotateLeft from '@material-ui/icons/RotateLeft';
+import Play from '@mui/icons-material/PlayCircleOutline';
+import Forward from '@mui/icons-material/SkipNext';
+import Backward from '@mui/icons-material/SkipPrevious';
+import RotateLeft from '@mui/icons-material/RotateLeft';
 
-import Bar from './components/Bar';
+import Bar from './Components/Bar'
 //CSS
 import './App.css';
 
@@ -186,6 +186,7 @@ class App extends Component {
 
 		return (
 			<div className='app'>
+				<p className = "text">Sorting Vizualizer including bubble, insertion and selection sort</p>
 				<div className='frame'>
 					<div className='barsDiv container card'>{bars}</div>
 				</div>

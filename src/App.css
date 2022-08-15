@@ -1,6 +1,12 @@
 .App {
 	text-align: center;
 }
+.text{
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .frame {
 	margin: 0;

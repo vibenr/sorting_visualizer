@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import './Bar.css';
+import './bar.css';
 
 function Bar({ index, length, color, changeArray }) {
 	const [len, setLen] = useState(length);
