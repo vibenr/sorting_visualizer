@@ -60,3 +60,12 @@
 
 .pannel {
 }
+
+.footer{
+  position: relative; 
+  bottom: 0; 
+  margin-top: 4rem;
+  text-align: center;
+  color: gray;
+  font-family: 'Times New Roman', Times, serif;
+}

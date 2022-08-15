@@ -202,6 +202,7 @@ class App extends Component {
 					</div>
 				</div>
 				<div className='pannel'></div>
+				<div className = "footer">all rights are reserved with @vaibhav_chauhan</div>
 			</div>
 		);
 	}
